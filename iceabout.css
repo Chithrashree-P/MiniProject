@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:purple;
+    height: 100px;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+   
+  
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    i{
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+}
+.content{
+    display: flex;
+    p{
+        font-size: 20px;
+        height: 600px;
+        width: 600px;
+        text-align: justify;
+    }
+    h1{
+        padding: 15px;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+        border-radius: 50px;
+    }
+    .images {
+        position: relative;
+        top: 20px;
+        left: 100px;
+        image{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+    #id{
+        position: relative;
+        top: 5s0px;
+    }
+    .p{
+        position: relative;
+        top: 100px;
+        left: 40px;
+        
+    }
+}
+
+.content  input:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color:aquamarine;
+    color: white;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: white;
+    border-radius: 50px;
+    color: purple;
+}.content  input:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color:aquamarine;
+    color: white;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: white;
+    border-radius: 50px;
+    color: purple;
+}
+.images:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    
+}

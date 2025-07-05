@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:purple;
+    height: 100px;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+  
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    i{
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        width: 300px;
+        height: 420px;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 30px;
+        
+    }
+    img{
+        width: 300px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    button{
+        border: 1px solid black;
+        padding: 5px 10px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        position: relative;
+        bottom: 10px;
+        left: 20px;
+    }
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 300px;
+    align-items: center;
+    background-color:blueviolet;
+    color: white;
+    i{
+        
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    a{
+        color: white;
+        font-size: 30px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        gap: 10px;
+        border-top: 1px solid purple;
+        width: 100%;
+    
+}
+}
+
+.container .card:hover{
+    background-color: white;
+    transition : 1s;
+}
+.container .card:hover{
+    transform: scale(1.1);
+    transition : 1s;
+    background-color: white;
+}
+.elements .navbar1:hover{
+    background-color: darkgray;
+    color: red;
+    transition : 1s;
+    transform: scale(1.1);
+}
+.child .child1:hover{
+    background-color: darkgray;
+    color: red;
+    transition : 1s;
+    transform: scale(1.1);  
+}
+.content  input:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color:aquamarine;
+    color: white;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: white;
+    border-radius: 50px;
+    color: purple;
+}
